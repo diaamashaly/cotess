@@ -1,0 +1,611 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gt\n"
+"POT-Creation-Date: 2018-10-05 21:47+0200\n"
+"PO-Revision-Date: 2024-04-28 17:06+0300\n"
+"Last-Translator: \n"
+"Language-Team: gt\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: .\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+
+#: demo-content/nasser/manifest.php:7
+msgid "alalmiyalhura v1.0.0"
+msgstr ""
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/config.php:10
+msgid "About"
+msgstr "حول"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/config.php:11
+#: framework-customizations/extensions/shortcodes/shortcodes/contact_us/config.php:11
+msgid "Add Section About"
+msgstr "أضافه قسم حول"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/about_in/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/client/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/contact_us/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/maps/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/projects/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/services/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/config.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/waves_2/config.php:12
+msgid "Abrag Elzgag"
+msgstr "أبراج الزجاجية"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:69
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:96
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:123
+#: framework-customizations/extensions/shortcodes/shortcodes/about_in/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/contact_us/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:29
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:53
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/projects/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:33
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:31
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:19
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:48
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:52
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:74
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:78
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:104
+#: framework-customizations/theme/options/social-settings.php:22
+msgid "Title"
+msgstr "العنوان"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:46
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:73
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:100
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:127
+#: framework-customizations/extensions/shortcodes/shortcodes/about_in/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:33
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:57
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:37
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:63
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:35
+msgid "Description"
+msgstr "الوصف"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:18
+msgid "Url About more"
+msgstr "رابط المزيد من حول"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:26
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:27
+msgid "Box About 1"
+msgstr "صندوق حول رقم 1"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:28
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:55
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:82
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:109
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:12
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:68
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:94
+#: inc/post-types.php:12 inc/post-types.php:50
+msgid "Edit"
+msgstr "تعديل"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:37
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:64
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:91
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:118
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:25
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:49
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:24
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:29
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:42
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:51
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:32
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:59
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:85
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:111
+#: framework-customizations/theme/options/social-settings.php:31
+msgid "Icon"
+msgstr "ايقونة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:53
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:54
+msgid "Box About 2"
+msgstr "صندوق حول رقم 2"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:80
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:81
+msgid "Box About 3"
+msgstr "صندوق حول رقم 3"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:107
+#: framework-customizations/extensions/shortcodes/shortcodes/about/options.php:108
+msgid "Box About 4"
+msgstr "صندوق حول رقم 4"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about_in/config.php:10
+msgid "About In"
+msgstr "صفحة حول"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about_in/config.php:11
+msgid "Add Section About In"
+msgstr "أضافه قسم صفحة حول"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/about_in/options.php:17
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/options.php:25
+msgid "Image cover"
+msgstr "الصورة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/config.php:10
+msgid "Client"
+msgstr "العميل"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/config.php:11
+msgid "Add Section Client"
+msgstr "أضافه قسم عميل "
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:10
+msgid "Heading"
+msgstr "العنوان"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:15
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:14
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:19
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:19
+msgid "Items"
+msgstr "العناصر"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:16
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:16
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:40
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:15
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:20
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:20
+msgid "Add/Edit Item"
+msgstr "أضافه/تحرير عنصر"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:17
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:17
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:41
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:16
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:21
+msgid "Create your Item"
+msgstr "إنشاء العنصر الخاص بك"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:21
+#: framework-customizations/extensions/shortcodes/shortcodes/services/options.php:27
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:25
+msgid "Image"
+msgstr "صورة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:27
+msgid "alternative"
+msgstr "النص البديل للصوره"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/client/options.php:31
+#: framework-customizations/theme/options/social-settings.php:26
+msgid "URL"
+msgstr "الرابط"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/contact_us/config.php:10
+msgid "Contact us"
+msgstr "اتصل بنا"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/contact_us/options.php:14
+msgid "shortcode"
+msgstr "شورت كود"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/config.php:10
+msgid "Cover"
+msgstr "كفر"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/config.php:11
+msgid "Add Section Cover"
+msgstr "أضافه غطاء المقطع"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/options.php:18
+msgid "Contact us button"
+msgstr "اتصل بنا زر"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/cover/options.php:30
+msgid "Background cover"
+msgstr "الصورة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/config.php:10
+msgid "How it works"
+msgstr "كيف نعمل"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/config.php:11
+msgid "Add Section How it works"
+msgstr "أضف القسم كيف يعمل"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:15
+msgid "Items Right"
+msgstr "العناصر في اليمين"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/how-it-works/options.php:39
+msgid "Items Left"
+msgstr "العناصر في الشمال"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/maps/config.php:10
+msgid "Map"
+msgstr "الخريطة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/maps/config.php:11
+msgid "Add Section Map"
+msgstr "اضف قسم الخريطة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/maps/options.php:17
+msgid "map"
+msgstr "الخريطه"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:10
+#: inc/post-types.php:8 inc/post-types.php:9
+msgid "Portfolio"
+msgstr "المعرض"
+
+#: inc/post-types.php:8 inc/post-types.php:38
+msgid "services"
+msgstr "الخدمات"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/config.php:11
+msgid "Add Section Portfolio"
+msgstr "اضف قسم المعرض"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/portfolio/options.php:14
+msgid "Url Portfolio more"
+msgstr "اضف رابط المزيد من المعرض"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/projects/config.php:10
+msgid "Projects Ajax"
+msgstr "المشاريع"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/projects/config.php:11
+msgid "Add Section Projects"
+msgstr "اضف قسم المشاريع"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/services/config.php:10
+msgid "Services"
+msgstr "الخدمات"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/services/config.php:11
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/config.php:11
+msgid "Add Section Services"
+msgstr "اضف قسم الخدمات"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/services_in/config.php:10
+msgid "Services In"
+msgstr "صفحة الخدمات"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/config.php:10
+msgid "Staff"
+msgstr "فريق العمل"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/config.php:11
+msgid "Add Section Staff"
+msgstr "اضف قسم فريق العمل"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/staff/options.php:13
+msgid "Background Cover"
+msgstr "خلفية الكفر"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/config.php:10
+msgid "Statistics"
+msgstr "الاحصائيات"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/config.php:11
+msgid "Add Section Statistics"
+msgstr "اضف قسم الاحصائيات"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:10
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:11
+msgid "Box Statistic 1"
+msgstr "صندوق الاحصائيات 1"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:40
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:41
+msgid "Box Statistic 2"
+msgstr "صندوق الاحصائيات 2"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:66
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:67
+msgid "Box Statistic 3"
+msgstr "صندوق الاحصائيات 3"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:92
+#: framework-customizations/extensions/shortcodes/shortcodes/statistics/options.php:93
+msgid "Box Statistic 4"
+msgstr "صندوق الاحصائيات 4"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/waves_2/config.php:10
+msgid "Waves"
+msgstr "الموج"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/waves_2/config.php:11
+msgid "Add Section Waves"
+msgstr "اضف قسم الموج"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/waves_2/options.php:11
+msgid "Label"
+msgstr "ضع الكلمة المناسبة"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/waves_2/options.php:13
+msgid "white"
+msgstr "ابيض"
+
+#: framework-customizations/extensions/shortcodes/shortcodes/waves_2/options.php:14
+msgid "blue"
+msgstr "ازرق"
+
+#: framework-customizations/theme/options/general-settings.php:8
+msgid "General"
+msgstr "عام"
+
+#: framework-customizations/theme/options/general-settings.php:13
+msgid "General Settings"
+msgstr "اعدادات عامة"
+
+#: framework-customizations/theme/options/general-settings.php:18
+msgid "Favicon"
+msgstr "ايقونة الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:19
+msgid "Upload a favicon image"
+msgstr "ارفع ايقونة الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:26
+msgid "Phone Website"
+msgstr "رقم الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:28
+msgid "write number the Phone website."
+msgstr "اكتب رقم الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:34
+msgid "Emial Website"
+msgstr "البريد الالكترونى الخاص بالموقع"
+
+#: framework-customizations/theme/options/general-settings.php:36
+msgid "write name the Emial website."
+msgstr "اكتب البريد الالكترونى"
+
+#: framework-customizations/theme/options/general-settings.php:42
+msgid "SEO"
+msgstr "سيو"
+
+#: framework-customizations/theme/options/general-settings.php:61
+msgid "Author Website"
+msgstr "موقع المؤلف"
+
+#: framework-customizations/theme/options/general-settings.php:63
+msgid "write name the author website."
+msgstr "اكتب اسم موقع المؤلف."
+
+#: framework-customizations/theme/options/general-settings.php:68
+msgid "Keywords Website"
+msgstr "الكلمات المفتاحية"
+
+#: framework-customizations/theme/options/general-settings.php:70
+msgid "write name the keywords website."
+msgstr "اكتب اسم الموقع الكلمات الرئيسية."
+
+#: framework-customizations/theme/options/general-settings.php:75
+msgid "Description Website"
+msgstr "وصف الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:77
+msgid "write name the description website."
+msgstr "اكتب الاسم وصف الموقع."
+
+#: framework-customizations/theme/options/general-settings.php:85
+msgid "Header"
+msgstr "رأس الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:91
+msgid "Logo Website"
+msgstr "شعار الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:92
+#: framework-customizations/theme/options/general-settings.php:101
+msgid "Upload Logo Website"
+msgstr "ارفع شعار الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:100
+msgid "alternative text for Logo"
+msgstr "النص البديل لشعار الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:110
+msgid "Footer"
+msgstr "زيل الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:115
+msgid "Logo Footer"
+msgstr "شعار زيل الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:116
+msgid "Upload a Logo Footer image"
+msgstr "ارفع شعار زيل الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:122
+msgid "Description Footer"
+msgstr "وصف الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:134
+msgid "Copyrights website"
+msgstr "حقوق الموقع"
+
+#: framework-customizations/theme/options/general-settings.php:136
+msgid "write name the Copyrights website."
+msgstr "اكتب حقوق الموقع"
+
+#: framework-customizations/theme/options/pages-settings.php:8
+msgid "Page settings"
+msgstr "اعدادات الصفحة"
+
+#: framework-customizations/theme/options/pages-settings.php:13
+msgid "Pages"
+msgstr "الصفحات"
+
+#: framework-customizations/theme/options/pages-settings.php:19
+msgid "Page Search"
+msgstr "صفحة البحث"
+
+#: framework-customizations/theme/options/pages-settings.php:27
+msgid "Page Portfolio"
+msgstr "صفحة عرض تفصيل اعملنا"
+
+#: framework-customizations/theme/options/posts/portfolio.php:9
+msgid "Additional settings"
+msgstr "اعدادات اضافيه"
+
+#: framework-customizations/theme/options/taxonomies/about-page.php:8
+msgid "About Us Page"
+msgstr "صفحة من نحن"
+
+#: framework-customizations/theme/options/posts/portfolio.php:15
+msgid "gallery"
+msgstr "معرض"
+
+#: framework-customizations/theme/options/posts/portfolio.php:22
+msgid "Image home page"
+msgstr "صوره الصفحة الرئيسية"
+
+#: framework-customizations/theme/options/social-settings.php:8
+#: framework-customizations/theme/options/social-settings.php:12
+#: framework-customizations/theme/options/social-settings.php:18
+msgid "social media"
+msgstr "مواقع التواصل "
+
+#: framework-customizations/theme/options/social-settings.php:36
+msgid "Open in new tab"
+msgstr "فتح في صفحة اخرى"
+
+#: framework-customizations/theme/options/social-settings.php:40
+#: inc/post-types.php:10 inc/post-types.php:11 inc/post-types.php:13
+#: inc/post-types.php:52
+msgid "Add"
+msgstr "اضف"
+
+#: framework-customizations/theme/options/header-data.php:8
+msgid "header data"
+msgstr "بيانات الهيدر"
+
+#: framework-customizations/theme/options/header-data.php:13
+msgid "header"
+msgstr "الهيدر"
+
+#: inc/kr-functions.php:22
+msgid "Primary Menu"
+msgstr "القائمة الرئيسية"
+
+#: inc/kr-functions.php:143
+#, php-format
+msgid "Page %s"
+msgstr "الصفحة %s"
+
+#: inc/lib.php:95
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/lib.php:98
+#, php-format
+msgid "Search for \"%s results\""
+msgstr "البحث عن \"%s  النتائج\""
+
+#: inc/lib.php:99
+#, php-format
+msgid "Threads tagged with \"%s\""
+msgstr ""
+
+#: inc/lib.php:100
+#, php-format
+msgid "Threads started by %s"
+msgstr ""
+
+#: inc/lib.php:203
+msgid "Page"
+msgstr "الصفحة "
+
+#: inc/map.php:20
+msgid "My Field"
+msgstr "حقلى "
+
+#: inc/map.php:25
+msgid "Your Location"
+msgstr "موقعك"
+
+#: inc/map.php:26
+msgid "geo location"
+msgstr "الموقع الجغرافي"
+
+#: inc/map.php:266
+msgid "Customer location"
+msgstr "موقع العميل"
+
+#: inc/post-types.php:14
+msgid "View"
+msgstr "عرض"
+
+#: inc/post-types.php:15
+msgid "Search"
+msgstr "البحث"
+
+#: inc/post-types.php:16
+msgid "Not Found"
+msgstr "غير موجود"
+
+#: inc/post-types.php:17
+msgid "not found in rash"
+msgstr "غير موجود في السله"
+
+#: inc/post-types.php:44 inc/post-types.php:45 inc/post-types.php:54
+msgid "Type"
+msgstr "اكتب"
+
+#: inc/post-types.php:46
+msgid "Search Type"
+msgstr "نوع البحث"
+
+#: inc/post-types.php:47
+msgid "All Types"
+msgstr "كل الانواع"
+
+#: inc/post-types.php:48 inc/post-types.php:49
+msgid "Parent Types"
+msgstr "أنواع الوالدين"
+
+#: inc/post-types.php:51
+msgid "Update"
+msgstr "تحديث"
+
+#: inc/post-types.php:53
+msgid "Name Type"
+msgstr "نوع الاسم"

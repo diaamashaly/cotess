@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'kr';
+  src:  url('../fonts/kr/kr.eot?2z32du');
+  src:  url('../fonts/kr/kr.eot?2z32du#iefix') format('embedded-opentype'),
+  url('../fonts/kr/kr.ttf?2z32du') format('truetype'),
+  url('../fonts/kr/kr.woff?2z32du') format('woff'),
+  url('../fonts/kr/kr.svg?2z32du#kr') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="kr-"], [class*=" kr-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'kr' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kr-search:before {
+  content: "\e900";
+}
+.kr-analysis:before {
+  content: "\e901";
+}
+.kr-behance-logo-button:before {
+  content: "\e902";
+}
+.kr-browser-window:before {
+  content: "\e903";
+}
+.kr-cart:before {
+  content: "\e904";
+}
+.kr-cloud-computing:before {
+  content: "\e905";
+}
+.kr-conversation:before {
+  content: "\e906";
+}
+.kr-creativity:before {
+  content: "\e907";
+}
+.kr-facebook-logo-button:before {
+  content: "\e908";
+}
+.kr-google-plus-logo-button:before {
+  content: "\e909";
+}
+.kr-like:before {
+  content: "\e90a";
+}
+.kr-line-chart:before {
+  content: "\e90b";
+}
+.kr-medal:before {
+  content: "\e90c";
+}
+.kr-money:before {
+  content: "\e90d";
+}
+.kr-news-report:before {
+  content: "\e90e";
+}
+.kr-online-shop:before {
+  content: "\e90f";
+}
+.kr-programming:before {
+  content: "\e910";
+}
+.kr-project:before {
+  content: "\e911";
+}
+.kr-right-arrow:before {
+  content: "\e912";
+}
+.kr-share:before {
+  content: "\e913";
+}
+.kr-shipped:before {
+  content: "\e914";
+}
+.kr-shop:before {
+  content: "\e915";
+}
+.kr-show:before {
+  content: "\e916";
+}
+.kr-smartphonesmartphone:before {
+  content: "\e917";
+}
+.kr-solutionsolution:before {
+  content: "\e918";
+}
+.kr-structurestructure:before {
+  content: "\e919";
+}
+.kr-teamteam:before {
+  content: "\e91a";
+}
+.kr-twitter-logo-buttontwitter-logo-button:before {
+  content: "\e91b";
+}
+.kr-unlinkunlink:before {
+  content: "\e91c";
+}
+.kr-vectorvector:before {
+  content: "\e91d";
+}
+.kr-web-design:before {
+  content: "\e91e";
+}
+.kr-web-design-1:before {
+  content: "\e91f";
+}
+.kr-web-design-2:before {
+  content: "\e920";
+}
+.kr-web-design-3:before {
+  content: "\e921";
+}
+.kr-work-team:before {
+  content: "\e922";
+}

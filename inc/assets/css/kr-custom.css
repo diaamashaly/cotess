@@ -1,0 +1,36 @@
+img.logo-admin-bar {
+    height: 20px !important;
+    display: block;
+    padding-top: 5px !important;
+}
+.fw-backend-side-tabs .fw-settings-form-header {
+    background-color: #00b6dd !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level {
+    background: #00b6dd !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li {
+    border: 0 !important;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li a.nav-tab {
+    background: transparent !important;
+    border: 0 !important;
+    color: #fff !important;
+    font-weight: lighter !important;
+    font-size: 15px;
+}
+.fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li.ui-state-active a.nav-tab, .fw-backend-side-tabs .fw-options-tabs-first-level > .fw-options-tabs-list ul li.ui-state-active a.nav-tab:hover {
+    color: #fff !important;
+    font-weight: lighter !important;
+    background-color: #03a5cc !important;
+    font-size: 15px;
+}
+
+.fw-option-type-addable-box > .fw-option-boxes > .fw-option-box .hndle .fw-html-after-title {
+    left: 27px !important;
+    right: auto !important;
+}
+.postbox .handlediv {
+    float: right !important;
+    margin: 0 7px 0 0 !important;
+}
