@@ -15,8 +15,11 @@ $options = array(
                 'label'           => esc_html__( 'التقنيات المستخدمة', 'kr' ),
                 'box-options'     => array(
                     'portfolio_tech_stack_title' => array(
-                        'type'  => 'text',
-                        'label' => esc_html__( 'Title', 'kr' ),
+                        'type' => 'text',
+                        'value' => '',
+                        'label' => esc_html__('اسم التقنية', 'abrag'),
+                        'desc' => false,
+                        'help' => esc_html__('يرجى ادخال اسم التقنية', 'abrag'),
                     ),
                 ),
                 'template'        => '{{- portfolio_tech_stack_title }}', // box title

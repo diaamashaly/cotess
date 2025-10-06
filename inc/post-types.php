@@ -60,7 +60,7 @@ function create_custom_taxonomies() {
 		),
 	) );
 	// Add new "Locations" taxonomy to Posts
-	// register_taxonomy( 'projects_type', 'projects', array(
+	// register_taxonomy( 'post_type', 'post', array(
 	// 	// Hierarchical taxonomy (like categories)
 	// 	'hierarchical' => true,
 	// 	// This array of options controls the labels displayed in the WordPress Admin UI
@@ -79,7 +79,7 @@ function create_custom_taxonomies() {
 	// 	),
 	// 	// Control the slugs used for this taxonomy
 	// 	'rewrite'      => array(
-	// 		'slug'         => 'portfolio_type', // This controls the base slug that will display before each term
+	// 		'slug'         => 'post_type', // This controls the base slug that will display before each term
 	// 		'with_front'   => false, // Don't display the category base before "/locations/"
 	// 		'hierarchical' => true // This will allow URL's like "/locations/boston/cambridge/"
 	// 	),

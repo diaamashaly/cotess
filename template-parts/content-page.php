@@ -184,9 +184,9 @@
                 'hide_empty'    => false
             ));
 
-            foreach ($all_terms as $single_term) { 
+            foreach ($all_terms as $i => $single_term) { 
                 ?>
-            <button class="portfolio-tab-btn active" data-tab="<?php echo $single_term->slug ?>">
+            <button class="portfolio-tab-btn <?php echo $i === 0 ? 'active' : '' ?>" data-tab="<?php echo $single_term->slug ?>">
               <i class="fas fa-code"></i>
               <span><?php echo $single_term->name ?></span>
             </button>
@@ -213,9 +213,9 @@
 			$count = 1;
 			foreach ( get_terms( 'portfolio_type', array(
                 'hide_empty'    => false
-            ) ) as $get_term ) :
+            ) ) as $i => $get_term ) :
 				?>
-            <div class="portfolio-tab-content" id="<?php echo $get_term->slug; ?>">
+            <div class="portfolio-tab-content <?php echo $i === 0 ? 'active' : '' ?>" id="<?php echo $get_term->slug; ?>">
                 <div class="container">
                     <div class="row">
                         <?php
@@ -279,217 +279,72 @@
 			endforeach;
 			?>
 
-        <!-- Mobile Apps Tab Content -->
-        <!-- <div id="mobile-apps" class="portfolio-tab-content">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-1">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Food Delivery App"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Food Delivery App</h4>
-                  </div>
-                  <p>
-                    Cross-platform mobile app with real-time tracking and
-                    payment integration.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">React Native</span>
-                    <span class="tech-tag">Firebase</span>
-                    <span class="tech-tag">Maps API</span>
-                    <span class="tech-tag">PayPal</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-2">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Fitness Tracker"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Fitness Tracker</h4>
-                  </div>
-                  <p>
-                    Health and fitness mobile app with workout plans and
-                    progress tracking.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">Flutter</span>
-                    <span class="tech-tag">Dart</span>
-                    <span class="tech-tag">SQLite</span>
-                    <span class="tech-tag">HealthKit</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-3">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Learning Platform"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Learning Platform</h4>
-                  </div>
-                  <p>
-                    Educational mobile app with interactive courses and
-                    assessments.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">Swift</span>
-                    <span class="tech-tag">Kotlin</span>
-                    <span class="tech-tag">Firebase</span>
-                    <span class="tech-tag">WebRTC</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-4">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Banking App"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Banking App</h4>
-                  </div>
-                  <p>
-                    Secure mobile banking application with biometric
-                    authentication and real-time transaction monitoring.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">React Native</span>
-                    <span class="tech-tag">Node.js</span>
-                    <span class="tech-tag">MongoDB</span>
-                    <span class="tech-tag">Biometrics</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
+    <!-- Blog Section -->
+    <section id="blog" class="section blog-section">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title fade-in-on-scroll">Our Blog</h2>
+          <p class="section-subtitle fade-in-on-scroll stagger-1">
+            Stay updated with the latest trends in technology and digital
+            innovation
+          </p>
+        </div>
 
-        <!-- Digital Marketing Tab Content -->
-        <!-- <div id="digital-marketing" class="portfolio-tab-content">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-1">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Analytics Dashboard"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Analytics Dashboard</h4>
-                  </div>
-                  <p>
-                    Real-time business intelligence and reporting dashboard for
-                    marketing campaigns.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">Google Analytics</span>
-                    <span class="tech-tag">Power BI</span>
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">SQL</span>
-                  </div>
+        <div class="row">
+          <!-- Blog Post 1 -->
+
+          <?php
+
+$values = array('post_type' => 'post', 'order' => 'ASC');
+$query = new wp_query($values);
+
+        if ($query -> have_posts()) {
+        
+        while ($query -> have_posts()) {
+            
+            $query -> the_post(); ?>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <article class="blog-card fade-in-scale stagger-2">
+              <div class="blog-image">
+                <img
+                  src="<?php echo get_the_post_thumbnail_url(); ?>"
+                  alt="<?php the_title(); ?>"
+                />
+                <div class="blog-category"> <?php echo get_the_term_list(get_the_ID(), 'category', '', ', ', ''); ?></div>
+                <div class="blog-date"><?php echo get_the_date( 'F j, Y' ); ?></div>
+              </div>
+              <div class="blog-content">
+                <h3><?php the_title(); ?></h3>
+                <p>
+                  <?php the_excerpt(); ?>
+                </p>
+                <div class="blog-meta">
+                  <div class="blog-read-time"><?php echo get_the_date( 'F j, Y' ); ?> </div>
+                  <a class='blog-read-more' href='<?php the_permalink(); ?>'>
+                    Read More <i class="fas fa-arrow-right"></i>
+                  </a>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-2">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Social Media Campaign"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Social Media Campaign</h4>
-                  </div>
-                  <p>
-                    Comprehensive social media marketing strategy with 300%
-                    engagement increase.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">Facebook Ads</span>
-                    <span class="tech-tag">Instagram</span>
-                    <span class="tech-tag">Hootsuite</span>
-                    <span class="tech-tag">Canva</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-3">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="SEO Optimization"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>SEO Optimization</h4>
-                  </div>
-                  <p>
-                    Complete SEO overhaul resulting in 250% increase in organic
-                    traffic.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">Google Search</span>
-                    <span class="tech-tag">SEMrush</span>
-                    <span class="tech-tag">Ahrefs</span>
-                    <span class="tech-tag">WordPress</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6 col-md-6 mb-4">
-              <div class="portfolio-card stagger-4">
-                <div class="portfolio-image">
-                  <img
-                    src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-                    alt="Email Marketing Campaign"
-                  />
-                </div>
-                <div class="portfolio-content">
-                  <div class="portfolio-header">
-                    <h4>Email Marketing Campaign</h4>
-                  </div>
-                  <p>
-                    Automated email marketing campaign with personalization
-                    achieving 45% open rate and 12% CTR.
-                  </p>
-                  <div class="portfolio-tech-stack">
-                    <span class="tech-tag">Mailchimp</span>
-                    <span class="tech-tag">Klaviyo</span>
-                    <span class="tech-tag">HTML/CSS</span>
-                    <span class="tech-tag">A/B Testing</span>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </article>
           </div>
-        </div> -->
+
+          <?php
+          }
+        }
+
+        wp_reset_postdata();
+
+        ?>
+        </div>
+
+        <div class="text-center mt-5">
+          <a class='btn btn-outline-primary btn-lg fade-in-on-scroll stagger-5' href='<?php echo get_post_type_archive_link('post'); ?>'>
+            View All Articles <i class="fas fa-external-link-alt ms-2"></i>
+          </a>
+        </div>
+      </div>
+    </section>
       </div>
     </section>
 
